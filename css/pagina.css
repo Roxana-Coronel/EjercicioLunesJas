@@ -1,0 +1,25 @@
+
+
+nav{
+	margin: 0 auto;
+	padding: 0 ;
+	width: 90%;
+	max-width: 1200px;
+	width: 100%;
+	height: 100%;
+    list-style:none;
+	overflow:hidden;
+	justify-content: left;
+    text-align: center;
+    font-size: 40px;
+    color:black;
+}
+.siteHeader, .contenedor{
+	margin: 0 auto;
+	padding: 0 ;
+	width: 90%;
+	max-width: 1200px;
+	width: 100%;
+	height: 100%;
+	background-color: #D4D4D4;	
+}

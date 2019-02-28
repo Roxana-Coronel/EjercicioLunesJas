@@ -1,0 +1,79 @@
+center h1{
+        
+       
+        background: #FF742C;
+	      margin: 10px;
+	      color: white;
+        display: table;
+        padding: 70px;
+        border-radius: 15px;
+        width: 500px;
+         
+
+}
+
+
+
+ul{
+  color: black;
+  list-style-type: none;
+  margin-left: 35%;
+  background-color: rgb(235, 230, 230);
+  width: 500px;
+  height: 500px;
+  border-radius: 15px; 
+  
+ 
+
+}
+li{
+    color: black;
+	  list-style-type: none;
+    margin: 2%;
+    background-color: rgb(235, 230, 230);
+    width: 500px;
+    height: 500px; 
+    float:'left';
+    padding: 0px;
+    border-radius: 15px;
+    
+   
+
+}
+#operaciones{
+  background: rgb(240, 234, 231); 
+  color:black;
+  border-radius: 15px;
+  width: 400px;
+  height: 40px;
+  margin-left: 40%;
+  text-align: right;
+  line-Height:'7';
+}
+
+.numero, .signo, .igual, .decimal {
+  margin-right:2%;
+  margin-Top:2%;
+  text-align: center;
+  line-Height:'7';  
+  border: 20px;
+  width: 40px;
+  height: 20px;  
+  padding: 1em;
+  padding-left:  5px;
+  padding-right: 5px;
+  margin-left:   3px;
+  box-shadow: 0px 1px 10px -2px rgb(0, 0, 0);
+  
+    
+} 
+#borrar{
+        background: #FF742C;
+        line-Height:'7';  
+	      color: white;
+        border-radius: 15px;
+        width: 5%;
+        height: 5%;
+        margin-left: 40%;
+         
+}

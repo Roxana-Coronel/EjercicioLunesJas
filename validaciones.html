@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="css/validaciones.css">
+</head>
+<body>
+    <div id="formulario">
+        <form action="#" id="formRegister" onsubmit="netFormulario.valFormCompleto()">
+
+            <p>
+                <i class="fas fa-user-alt icon"></i>
+                <input type="text" class="validar" placeholder="Ingrese nombre 2 caracteres, maxino 6. Caracteres alfabeticos" id="name">
+                <label for="name"><span class="obligatorio">*Campo obligatorio</span></label>
+            </p>
+
+            <p>
+                <i class="fas fa-file-signature icon"></i>
+                <input type="password" class="validar" placeholder="Escriba su contraseña con minimo 8 caracteres y debe incluir letras en mayusculas, minusculas numeros" id="password">
+                <label for="password"><span class="obligatorio">*Campo obligatorio</span></label>
+            </p>
+
+            <p>
+                <i class="fas fa-birthday-cake icon"></i>
+                <input type="number" class="validar" placeholder="Ingrese la edad" id="age">
+                <label for="age"><span class="obligatorio">*Campo obligatorio</span></label>
+            </p>
+
+            
+            <p>
+                <i class="fas fa-birthday-cake icon"></i>
+                <input type="date" class="validar" id="DateIni">
+                <label for="DateIni"><span class="obligatorio">*Campo obligatorio</span></label>
+            </p>
+
+            <p>
+                <label id="labelEnviar"></label>
+                <button type="submit"><i class="fas fa-birthday-cake icon"></i></button>
+               
+            </p>
+
+        </form>
+
+    </div>
+
+    <script src="js/validaciones.js"></script>
+</body>
+</html>
